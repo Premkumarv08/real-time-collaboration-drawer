@@ -1,0 +1,41 @@
+.canvas-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  border-bottom: 2px solid #ddd;
+}
+
+.canvas-title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+}
+
+.active-users {
+  margin: 0;
+}
+
+.notification {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.canvas {
+  border: 2px solid black;
+  background: #fff;
+  display: block;
+  margin: 0 auto;
+  touch-action: none;
+}

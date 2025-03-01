@@ -1,0 +1,50 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px 20px;
+  background: #222;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.color-picker-container {
+  display: flex;
+  align-items: center;
+}
+.color-picker {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.brush-slider {
+  width: 120px;
+  cursor: pointer;
+}
+.brush-size {
+  color: white;
+  font-size: 14px;
+}
+
+.clear-button {
+  padding: 8px 15px;
+  background: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease-in-out;
+}
+.clear-button:hover {
+  background: #cc0000;
+}
