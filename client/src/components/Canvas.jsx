@@ -4,7 +4,7 @@ import Toolbar from "./Toolbar";
 import { EVENTS } from "../utils/constants";
 import "../styles/Canvas.css";
 
-const socket = io("http://localhost:5001", { transports: ["websocket"] });
+const socket = io(import.meta.env.VITE_BACKEND_URL, { transports: ["websocket"] });
 
 const Canvas = () => {
   const canvasRef = useRef(null);
